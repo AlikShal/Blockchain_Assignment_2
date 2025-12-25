@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStoredValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "modifyUsingMemory",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storedValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Memory_vs_Storage_Mutation.sol": "MemoryVsStorage"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Memory_vs_Storage_Mutation.sol": {
+			"keccak256": "0xba49e6c03ceae0f3b88316d0b0150bc408774e88f09a77e19f931e32d23b94e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9749575c1b10730e812b513d5912a1eb261c6eb8acd92a88e5289799b676c8fa",
+				"dweb:/ipfs/QmQFNayGofhmZjQn3p6qphAvzBtcot9Fw56kyzdyNRvmh6"
+			]
+		}
+	},
+	"version": 1
+}
