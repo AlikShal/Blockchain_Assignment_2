@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "m",
+						"type": "uint256"
+					}
+				],
+				"name": "pushUltraOptimized",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Case_3_UltraOptimized.sol": "C"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Case_3_UltraOptimized.sol": {
+			"keccak256": "0x8f316e05b4f128c9c45ca3ce24b7695ff48d6fc87764ee1525203d5f92031b46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c480f3ccbe8dffbdbe658c687723fc4693e322111d5b755c3c6dc4c3421e4780",
+				"dweb:/ipfs/QmUXBRKPvzX4xqGqFw8mBNkYiM3JCHDPzjXPW1PBbqVAYf"
+			]
+		}
+	},
+	"version": 1
+}
